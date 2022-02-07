@@ -40,7 +40,7 @@ function playerAdded(v)
                      
                       for _, animName in pairs(AnimNames) do
                           if info.Name:match(animName) then
-                              pcall(block, v)
+                              pcall(block, f)
                           end
                       end
                      
